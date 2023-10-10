@@ -73,7 +73,7 @@
             </HBox>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <Text fx:id="check_comerciales" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="check_comerciales" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="491.8455991744995" />
                </children>
             </HBox>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
