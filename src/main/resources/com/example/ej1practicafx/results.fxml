@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="334.0" prefWidth="343.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ej1practicafx.ResultsController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Label fx:id="title" contentDisplay="CENTER" text="¡Gracias por tu contacto!">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="label_name" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="result_name" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="label_name1" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellido" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="result_lastName" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="label_name11" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha Nacimiento" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="result_date" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="label_name12" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo electrónico" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="result_email" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="label_name111" strokeType="OUTSIDE" strokeWidth="0.0" text="Sexo" wrappingWidth="70.24566173553467" />
+                  <Text fx:id="result_sex" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="70.24566173553467" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="label_name1111" strokeType="OUTSIDE" strokeWidth="0.0" text="Profesion" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="result_profesion" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="check_comerciales" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="button_exit" mnemonicParsing="false" onAction="#onExitButtonClick" text="Salir" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>
