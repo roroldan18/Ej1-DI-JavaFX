@@ -23,7 +23,7 @@
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Text fx:id="label_name" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" wrappingWidth="64.64568614959717" />
-                  <Text fx:id="result_name" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="result_name" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="426.2456884384155" />
                </children>
                <VBox.margin>
                   <Insets bottom="5.0" top="5.0" />
@@ -32,7 +32,7 @@
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Text fx:id="label_name1" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellido" wrappingWidth="64.64568614959717" />
-                  <Text fx:id="result_lastName" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="result_lastName" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="426.24568462371826" />
                </children>
                <VBox.margin>
                   <Insets bottom="5.0" top="5.0" />
@@ -41,7 +41,7 @@
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Text fx:id="label_name11" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha Nacimiento" wrappingWidth="64.64568614959717" />
-                  <Text fx:id="result_date" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="result_date" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="423.8455991744995" />
                </children>
                <VBox.margin>
                   <Insets bottom="5.0" top="5.0" />
@@ -50,13 +50,13 @@
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Text fx:id="label_name12" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo electrónico" wrappingWidth="64.64568614959717" />
-                  <Text fx:id="result_email" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="result_email" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="427.04561138153076" />
                </children>
             </HBox>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Text fx:id="label_name111" strokeType="OUTSIDE" strokeWidth="0.0" text="Sexo" wrappingWidth="70.24566173553467" />
-                  <Text fx:id="result_sex" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="70.24566173553467" />
+                  <Text fx:id="result_sex" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="420.6456480026245" />
                </children>
                <VBox.margin>
                   <Insets bottom="5.0" top="5.0" />
@@ -65,7 +65,7 @@
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Text fx:id="label_name1111" strokeType="OUTSIDE" strokeWidth="0.0" text="Profesion" wrappingWidth="64.64568614959717" />
-                  <Text fx:id="result_profesion" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.64568614959717" />
+                  <Text fx:id="result_profesion" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="427.0456876754761" />
                </children>
                <VBox.margin>
                   <Insets bottom="5.0" top="5.0" />
